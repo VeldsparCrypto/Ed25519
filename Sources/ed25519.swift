@@ -57,7 +57,7 @@ public func MakePublicKey(_ privateKeySeed: [byte]) -> [byte] {
     A.ToBytes(&publicKey)
     
     return publicKey
-}
+} 
 
 // Sign signs the message with privateKey and returns a signature.
 public func Sign(_ privateKey: [byte], _ message: [byte]) -> [byte] {
