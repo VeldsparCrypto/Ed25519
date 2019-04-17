@@ -12,6 +12,9 @@ let package = Package(
     ],
   targets: [
     .target(name: "Ed25519", dependencies: ["CryptoSwift"], path: ".", sources: ["Sources"]),
+    ],
+    swiftLanguageVersions: [
+        4
     ]
 )
 
